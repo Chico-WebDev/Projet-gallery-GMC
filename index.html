@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galerie de Produits</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<div id="loader"></div>
+<body>
+  <div class="container">
+    <header>
+      <h1>Galerie de Produits</h1>
+      <button id="theme-toggle">🌓 Mode Sombre</button>
+    </header>
+
+    <div class="gallery">
+      <div class="card">
+        <img src="./daniel-korpai-hbTKIbuMmBI-unsplash.jpg" alt="Produit 1" />
+        <h2>Produit 1</h2>
+        <p>Ce produit est innovant et de qualité supérieure.</p>
+      </div>
+      <div class="card">
+        <img src="./eniko-kis-KsLPTsYaqIQ-unsplash.jpg" alt="Produit 2" />
+        <h2>Produit 2</h2>
+        <p>Conception moderne et fonctionnalités avancées.</p>
+      </div>
+      <div class="card">
+        <img src="./fernando-andrade-potCPE_Cw8A-unsplash.jpg" alt="Produit 3" />
+        <h2>Produit 3</h2>
+        <p>Un excellent choix pour tous les utilisateurs exigeants.</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+  window.addEventListener("load", () => {
+    const loader = document.getElementById("loader");
+    loader.style.display = "none";
+  });
+</script>
+
+  <script src="script.js"></script>
+</body>
+</html>
